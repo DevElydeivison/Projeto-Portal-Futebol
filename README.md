@@ -1,41 +1,24 @@
-# Portal do Leão 🦁
+# Portal do Leão — Mobile First 🦁
 
-Portal **independente e não oficial** inspirado no Sport Club do Recife, expandido a partir do projeto de tela de login enviado pelo autor.
+Projeto independente de portfólio, não afiliado ao Sport Club do Recife. Site responsivo em HTML, CSS e JavaScript puro.
+
+## Funcionalidades
+- Página inicial com identidade rubro-negra e escudo PNG fornecido.
+- Três partidas históricas (2001, 2008 e 2012), com escudos dos adversários.
+- Seleção de setor (Sociais, Arquibancada Sede, Arquibancada Geral e Camarote), quantidade e total calculado.
+- Emissão de **comprovante demonstrativo**, com partida, data, horário, local, setor, quantidade, total e protocolo; impressão ou exportação para PDF pelo navegador.
+- Consulta de comprovantes na área do torcedor.
+- Três notícias históricas com resumos, imagens ilustrativas enviadas para o projeto e links diretos para UOL, Diario de Pernambuco e ge.
+- Loja demonstrativa com três imagens de camisas, boné, estátua de Magrão e quadro ilustrativo da Ilha do Retiro, além de carrinho local.
+- História, elenco ilustrativo, cadastro e login local.
 
 ## Como executar
+Abra `index.html` com Live Server no VS Code. Não requer build ou instalação.
 
-Abra `index.html` no navegador. Recomendado: extensão **Live Server** do VS Code, ou `python -m http.server 5500` e acesso a `http://localhost:5500`.
+## Limitações
+**Não há vendas, cobrança, reservas reais nem ingresso válido.** Os jogos são históricos e já aconteceram; preços e setores são simulados. O quadro da Ilha é uma arte demonstrativa criada a partir da fotografia de estádio já presente no projeto, pois não foi fornecida imagem específica do produto. As imagens de notícias são ilustrações do acervo enviado, não fotografias extraídas dos portais de imprensa. O login é apenas protótipo em localStorage e **não deve ser usado com senhas reais**. Para produção, implementar backend, autenticação segura e integrações oficiais.
 
-## Recursos
-
-- Home com identidade rubro-negra, destaques e chamadas para ações
-- Notícias editoriais demonstrativas e páginas individuais
-- Jogos e reservas **simuladas** de ingressos
-- Loja conceitual com filtros e carrinho persistido no `localStorage`
-- Elenco demonstrativo com busca e filtros de posição
-- História do clube em linha do tempo
-- Cadastro, login, sessão e área do torcedor **simulados**
-- Layout **mobile first**, menu adaptativo, estados de foco, HTML semântico e imagens responsivas
-
-## Importante: segurança e dados reais
-
-Este projeto é um **protótipo front-end**, não uma plataforma de vendas. O cadastro armazena senhas em texto simples no `localStorage` **somente para demonstração**. **Não use senhas reais, nem publique como autenticação de produção.** Para disponibilizar contas reais, substitua o login por autenticação no servidor com hash de senhas, sessões seguras, proteção contra abuso e gestão de dados conforme LGPD.
-
-Jogos, preços, reservas, produtos e elenco são **fictícios ou placeholders**. Notícias são conteúdos editoriais ilustrativos, não notícias em tempo real. Não há cobrança, emissão de ingressos, estoque ou conexão com serviços oficiais. Para produção, integrar fontes licenciadas/atualizadas, provedores autorizados de bilheteria e pagamentos, backend e banco de dados.
-
-## Estrutura
-
-- `index.html` — casca da aplicação, cabeçalho, navegação e modal
-- `assets/style.css` — design system responsivo, começando pelo mobile
-- `assets/app.js` — rotas por hash, dados de exemplo e interações
-- `assets/img/` — imagens e escudo reaproveitados do projeto enviado
-
-## Próximas etapas sugeridas
-
-1. Migrar para React + Vite, com React Router e componentes reutilizáveis.
-2. Criar API Node.js + Express e banco PostgreSQL.
-3. Implementar autenticação segura, painel administrativo e controle de permissões.
-4. Integrar notícias e calendário por fontes autorizadas.
-5. Integrar checkout real somente com credenciamento e homologação.
-
-**Aviso:** marca e imagens do clube pertencem aos respectivos titulares; este é um projeto de estudo/portfólio e não representa o Sport Club do Recife.
+## Fontes das notícias
+- [UOL — Sport anuncia Diego Souza e Ibson (2014)](https://www.uol.com.br/esporte/futebol/ultimas-noticias/2014/08/12/sport-oficializa-contratacao-de-diego-souza.htm)
+- [Diario de Pernambuco — Ciro e Sport (2021)](https://www.diariodepernambuco.com.br/noticias/futebol/santacruz/2021/11/nao-jogo-em-outro-clube-de-pe-a-nao-ser-o-sport-diz-ciro-sobre-supo.html)
+- [ge — despedida de Magrão (2026)](https://ge.globo.com/pe/futebol/times/sport/noticia/2026/09/14/sport-marca-jogo-de-despedida-para-idolo-magrao.ghtml)
