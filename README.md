@@ -131,3 +131,14 @@ As imagens de notícias presentes no site são ilustrativas e provenientes dos a
 ---
 
 **Portal do Leão** — desenvolvido para fins educacionais e de portfólio. ❤️🖤
+
+
+## Atualização — versão 3
+
+- Foto de Ciro substituída pela imagem fornecida.
+- Escudos dos adversários nas partidas e logos em PNG com fundo externo removido.
+- Loja com imagens ampliadas, visualização de detalhes, descrição, seletor de 1 a 10 unidades e carrinho.
+- 41 perfis **ilustrativos**: 3 goleiros, 5 zagueiros, 6 laterais, 4 volantes, 8 meias, 5 atacantes e 10 pontas. Cada perfil tem página individual e espaço para história e fotografia.
+- Links para GitHub e LinkedIn do desenvolvedor no rodapé.
+
+**Sobre imagens:** as fotos dos produtos foram redimensionadas e suavemente aprimoradas, mas isso não cria detalhes fotográficos ausentes nos arquivos originais. Para qualidade HD real, substitua-as por originais de alta resolução. As fotografias dos 41 atletas não foram fornecidas e, por isso, os perfis usam arte ilustrativa em vez de atribuir fotos a pessoas erradas.
